@@ -1,0 +1,56 @@
+<html>
+<heat>
+<title>clase7</title>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+                <link type="text/css" rel="stylesheet" href="estilos.css">
+</heat>
+<body>
+
+
+</body>
+</html>
+<div class="container">
+    <div class="row espaciado">
+        <div class="col">
+          <h1>DISEÑO EXTERIOR</h1>
+        </div>
+    </div>
+      <div class="row espaciado">
+        <div class="col-md-8">
+            <h2>EL NUEVO PEUGEOT 208 <small class="text-muted">ES IRRESISTIBLE</small></h2>
+
+            <p>Con un diseño con proporciones exactas que generan un vehículo dinámico y bien equilibrado, inspirado en el concept Fractal.</p>
+            <div class="container">
+                <div class="row espaciado">
+                    <div class="col">
+                      <h1>DISEÑO EXTERIOR</h1>
+                    </div>
+                </div>
+                  <div class="row espaciado">
+                    <div class="col-md-8">
+                        <h2>EL NUEVO PEUGEOT 208 <small class="text-muted">ES IRRESISTIBLE</small></h2>
+        
+                        <p>Con un diseño con proporciones exactas que generan un vehículo dinámico y bien equilibrado, inspirado en el concept Fractal.</p>
+                        
+          
+        <p>El diseño delantero del vehículo adopta la nueva firma lumínica asemejándose a los colmillos de un león mientras que el nombre del modelo nuevamente está colocado en el frente con un diseño gráfico nuevo y moderno. También el logo del león se colocó en posición vertical sobre la grilla frontal.</p>
+                        
+                        <p>La vista lateral resalta el aspecto dinámico del vehículo a través del trabajo realizado equilibrando luces y sombras que destacan al nuevo Peugeot 208.</p>
+            
+        </div>
+                    <div class="col-md-4">
+                      <img src="images/peugeout-208.png" class="img-fluid">
+                    </div>
+                    
+                </div>
+                <div class="row g-3 espaciado">
+                    <div class="col-md-4">
+                      <img src="images/peugeout-208-1.png" class="img-fluid">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/peugeout-208-2.png" class="img-fluid">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/peugeout-208-3.png" class="img-fluid">
+                    </div>                      
+                    </div>

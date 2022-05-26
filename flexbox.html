@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link type="text/css" rel="stylesheet" href="flexbox.css">
+
+    <script type="text/javascript" src="flexbox.js"></script>
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+    <!--<form itemref="form1" action="index.html" method="POST">
+        <input type="text" id="nombre" value="" placeholder="Nombre" required><br>
+        <input type="submit" value="ENVIAR">
+        </form>-->
+    
+    
+  
+    &nbsp;
+
+    <div class="container">
+    <div class="contenedor-padre"  >
+
+      <div class="tocar " id="hijo" onclick="validarSacar();"    >
+      <div class="flecha1"></div>
+      <div class="flecha2"></div>
+      </div>
+
+        <div class="contenedor-hijo c hijos">
+          <div class="card">
+            <img src="images/bolsa_papa.jpg"  class="card-img-top" alt="...">
+            <hr>
+            <h1>leon</h1>
+            <div class="div"> 
+            <p class="peso lado" style="float: left;">$500°°</p>
+            <p >envio gratis</p>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="contenedor-hijo c hijos">
+         <div class="card">
+            <img src="images/leon.jpg" class="card-img-top" alt="...">
+            <h1>leon</h1>
+            <p>envio gratis</p>
+          </div>
+        </div>
+
+        <div class="contenedor-hijo c hijos">
+          <div class="card">
+          <img src="images/leon.jpg" class="card-img-top" alt="...">
+          <h1>leon</h1>
+          <p>envio gratis</p>
+          </div>
+        </div>
+
+        <div class="contenedor-hijo c hijos">
+          <div class="card">
+          <img src="images/leon.jpg" class="card-img-top" alt="...">
+          <h1>leon</h1>
+          <p>envio gratis</p>
+        </div>
+      </div>
+
+      <div class="contenedor-hijo hijo"  >
+        <div class="card">
+          <img src="images/bolsa_papa.jpg"  class="card-img-top" alt="...">
+          <h1>leon</h1>
+          <p>envio gratis</p>
+        </div>
+      </div>
+
+      <div class="contenedor-hijo hijo"  >
+       <div class="card">
+          <img src="images/leon.jpg" class="card-img-top" alt="...">
+          <h1>leon</h1>
+          <p>envio gratis</p>
+        </div>
+      </div>
+
+      <div class="contenedor-hijo hijo"  >
+        <div class="card">
+        <img src="images/leon.jpg" class="card-img-top" alt="...">
+        <h1>leon</h1>
+        <p>envio gratis</p>
+        </div>
+      </div>
+
+      <div class="contenedor-hijo hijo" >
+        <div class="card">
+        <img src="images/leon.jpg" class="card-img-top" alt="...">
+        <h1>leon</h1>
+        <p>envio gratis</p>
+      </div>
+    </div>
+
+    <div class="poner "  id="hijos"  onclick="validarDatos();" >
+      <div class="flecha3"></div>
+      <div class="flecha4"></div>
+      </div>
+
+  
+
+
+
+  </div>
+
+
+  
+</div>
+<!--
+
+<form class="form">
+  <input type="text" id="text" name="text" value="" placeholder="TEXT" onmouseover="validarValidar();" onmouseout="validarNada();" >
+  <p id="contenido" style="margin-left: 30px;"></p>
+
+  <input type="range" id="rango" name="rango" value="" min="0" max="10" step="1" onchange="mostrarValor();" ><br>
+  <p id="rangos" style="float: left;" >cantidad: 0 =</p>
+  <p id="numeros" >$0</p><br>
+
+  <input type="number" id="cantidad" name="cantidad" value="" min="0" max="255" onclick="validarNumeros();" style="float: left;">
+  <p id="numero">  </p>
+</form>
+
+<form>
+<h1>practicando flexbox</h1>
+<input type="text" id="text5" name="text5" value="" ><br>
+<input type="button" value="enviar" onclick="validarHola();">
+<p id="hola">  </p>
+</form>
+
+
+
+
+-->
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+<script>
+
+  var elem_formularios = [];
+  elem_formularios.push(text5);
+  console.log("es:" + elem_formularios[0]);
+
+
+
+
+
+
+
+  function validarHola () {
+    var text5 = document.getElementById('text5').value;
+  document.getElementById("hola").innerHTML = text5.length;
+  }
+
+var a = 12345;
+var b = a.toString();
+console.log("es:" + b.length);
+
+var x = 9.656;
+x.toFixed(0);  //devuelve 10
+x.toFixed(2); //devuelve 9.66
+console.log("es:" + x.toFixed(2));
+
+
+  function mostrarValor() {
+    var rango = document.getElementById("rango").value;
+    var mostrar = document.getElementById("rangos");
+    mostrar.innerHTML = " cantidad: " + rango + " = ";
+    
+
+
+    if (rango == 0 ) {
+      document.getElementById("numeros").innerHTML =  "No selecciono nada";
+    }
+
+    if (rango == 1 ) {
+      document.getElementById("numeros").innerHTML =  " $100<del>°°</del>";
+    }
+    if (rango == 2 ) {
+      document.getElementById("numeros").innerHTML =  " $200<del>°°</del>";
+    }
+    if (rango == 3 ) {
+      document.getElementById("numeros").innerHTML =  " $300<del>°°</del>";
+    }
+    if (rango == 4 ) {
+      document.getElementById("numeros").innerHTML =  " $400<del>°°</del>";
+    }
+    if (rango == 5) {
+      document.getElementById("numeros").innerHTML =  " $500<del>°°</del>";
+    }
+  }
+
+
+function validarNumeros() {
+   var cantidad = document.getElementById('cantidad').value;   
+
+
+   if (cantidad == 0) {
+     document.getElementById("numero").innerHTML = " = $0";
+   }
+
+   if (cantidad == 1) {
+     document.getElementById("numero").innerHTML = " = $100";
+   }
+
+   if (cantidad == 2) {
+     document.getElementById("numero").innerHTML = " = $200";
+   }
+
+   if (cantidad == 3) {
+     document.getElementById("numero").innerHTML = " = $300";
+   }
+
+   if (cantidad == 4) {
+     document.getElementById("numero").innerHTML = " = $400";
+   }
+
+   if (cantidad == 5) {
+     document.getElementById("numero").innerHTML = " = $500";
+   }
+
+
+   if (((cantidad == 6) || (cantidad == 7 ) (cantidad == 8 ))) {
+     document.getElementById("numero").innerHTML = "<b>AGOTADO</B>" ;
+   }
+
+
+
+
+
+
+}
+
+
+
+function validarValidar() {
+  var contenido = document.getElementById('text').value;
+  document.getElementById("contenido").innerHTML = "esta vacio";
+  if (contenido == 1) {
+    document.getElementById("contenido").innerHTML = "$150";
+  } 
+}  
+
+function validarNada() {
+
+  document.getElementById("contenido").innerHTML = "";
+
+}
+ 
+
+
+function validarDatos() {
+  $(".hijo").show();
+  $(".hijo").show();
+  $(".hijo").show();
+  $(".hijo").show();
+  document.getElementById("hijos").style.opacity = "0";
+  document.getElementById("hijo").style.opacity = "3";
+
+  
+  
+ 
+
+
+  $(".hijos").hide();
+  $(".hijos").hide();
+  $(".hijos").hide();
+  $(".hijos").hide();
+}
+
+function validarSacar() {
+  $(".hijo").hide();
+  $(".hijo").hide();
+  $(".hijo").hide();
+  $(".hijo").hide();
+  $(".hijo").hide();
+  document.getElementById("hijos").style.opacity = "3";
+  document.getElementById("hijo").style.opacity = "0";
+
+
+
+  $(".hijos").show();
+  $(".hijos").show();
+  $(".hijos").show();
+  $(".hijos").show();
+  $(".hijos").show();
+
+}
+</script>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+        var lista = {
+            "arrayColores":[{
+                "nombreColor":"rojo",
+                "valorHexadec":"#f00"
+            },
+            {
+                "nombreColor":"verde",
+                "valorHexadec":"#0f0"
+
+            }]};
+
+            var lista1 = {"color":"negro"};
+
+            var lista2 = {"colores":[{"color":"negro", "valorhexa":"#000000"}, {"color":"blanco", "valorhexa":"#ffffff"}]};
+
+            //var lista3 = {"partido":[{"equipo":"river", "goles":"0"}, {"equipo":"Boca", "goles":"0"}]};
+            
+
+
+            //console.log(lista["arrayColores"][0]["nombreColor"]);
+
+           // $("#boton_json").click(function() {
+             //   cargarJson(lista2);
+            //});
+
+           /*function cargarJson() {
+
+                //var salida = "";
+               
+               /* for (i=0; i<lista.colores.length; i++) {
+
+                    salida += "<p>Mi color preferido es:<b>" + lista.colores[i].color + "</b> y su valor hexadecimal es <b>" + lista.colores[i].valorhexa + "</b>.</p>";
+                }*/
+
+              /*  var lista = {"partido":[{"equipo":"river", "goles":"0"}, {"equipo":"Boca", "goles":"0"}]};
+
+                $("#equipo1").html(lista.partido[0].equipo);
+                $("#equipo2").html(lista.partido[1].equipo);
+                $("#goles1").html(lista.partido[0].equipo);
+                $("#goles2").html(lista.partido[1].equipo);
+
+                //$("#resultado").html(salida);
+
+            
+            }*/
+
+
+            setInterval(function(){
+                cargarResultado();
+
+            }, 5000);
+
+            function cargarResultado() {
+                $.ajax({url:"lista.json", success: function(resultado){
+                    $("#equipo1").html(resultado.partido[0].equipo);
+                    $("#equipo2").html(resultado.partido[1].equipo);
+                    $("#goles1").html(resultado.partido[0].goles);
+                    $("#goles2").html(resultado.partido[1].goles);
+                }});
+            }
+
+            
+
+           
+
+
+    </script>
+  </body>
+</html>

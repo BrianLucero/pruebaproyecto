@@ -1,0 +1,116 @@
+a {
+    text-decoration: none;
+}
+
+.color {
+    color:  red;
+}
+
+.borde {
+    border:2px solid #cccccc;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    background: lightsteelblue;
+}
+
+#indice {
+    text-align: center;
+}
+
+.borde ol {
+    margin:0px;
+    padding: 3px 20px;
+ 
+}
+
+.borde ol li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.borde ol li a {
+    text-decoration: none;
+    
+}
+
+.menu sub {
+    margin: 5px;
+    padding: 0px 0px;
+}
+
+.menu sub li   {
+    margin: 5px;
+    padding: 5px 5px;
+}
+
+.container {
+
+    width: 1200px;
+    height: 1000px;
+    margin: auto;
+   padding: 1em ;
+}
+
+.header {
+    background: rebeccapurple;
+    margin: 0.5em;
+    border-radius: 0.5em;
+    padding:0.5em;
+    height: 15%;
+}
+
+.nav {
+    background: rebeccapurple;
+    margin: 0.5em;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    height: 5%;
+}
+
+.contenido {
+
+    margin: 0.5em;  
+    height: 65%;
+}
+
+.section {
+    background: rebeccapurple;
+    border-radius: 0.5em;
+     height: 100%;
+    width: 80%;
+    float: left;
+}
+
+.articulo {
+    width: 80%;
+    height: 20%;
+    background: seashell;
+    border-radius: 0.5em;
+    margin:1em auto;
+    padding: 5px;
+}
+
+.aside {
+    background: rebeccapurple;
+    border-radius: 0.5em;
+    height: 100%;
+    width: 17%;
+    float: right;
+    margin-top: auto;
+}
+
+.footer {
+    background: rebeccapurple;
+    margin: 0.5em;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    height: 5%;
+}
+
+
+
+
+
+

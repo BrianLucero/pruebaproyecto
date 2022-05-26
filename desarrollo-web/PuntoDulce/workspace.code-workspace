@@ -1,0 +1,44 @@
+{
+	"folders": [
+		{
+			"name": "practica",
+			"path": "..\\practica"
+		},
+		{
+			"name": "clase5",
+			"path": "..\\clase5"
+		},
+		{
+			"name": "clase4",
+			"path": "..\\clase4"
+		},
+		{
+			"name": "clase3",
+			"path": "..\\clase3"
+		},
+		{
+			"name": "clase11",
+			"path": "..\\clase11"
+		},
+		{
+			"name": "clase7",
+			"path": "..\\clase7"
+		},
+		{
+			"name": "clase1",
+			"path": "..\\clase1"
+		},
+		{
+			"name": "clase6",
+			"path": "..\\clase6"
+		},
+		{
+			"name": "clase8",
+			"path": "..\\clase8"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}

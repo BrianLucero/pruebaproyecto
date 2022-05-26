@@ -1,0 +1,51 @@
+#titulo {
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid transparent;
+    width: 90px;
+    margin: 0 auto;
+}
+
+#boton {
+    text-decoration: none;
+    animation-name: animacion;
+    animation-duration: 8s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    color: white;
+    position: relative;
+    animation-timing-function: step-start;
+    
+}
+
+@keyframes animacion {
+0% ,
+12% {background-color: red;}
+25% {background-color: darkgreen;}
+50% {background-color: black;}
+75% {background-color:  violet;}
+85% {background-color:  pink;}
+    99% {background-color:  darkmagenta;}
+100% {background-color: blue ;}
+
+    0% {box-shadow: 0 0 20px white, 0 0 40px white, 0 0 80px white;}
+    12%{box-shadow: 0 0 20px red, 0 0 40px red, 0 0 80px red;}
+    25% {box-shadow: 0 0 20px darkgreen, 0 0 40px darkgreen, 0 0 80px darkgreen;}
+    50% {box-shadow: 0 0 20px black, 0 0 40px black, 0 0 80px black;}
+    75% {box-shadow: 0 0 20px violet, 0 0 40px violet , 0 0 80px violet;}
+     85% {box-shadow: 0 0 20px pink, 0 0 40px pink, 0 0 80px pink;}
+    99% {box-shadow: 0 0 20px rgba(139, 0, 139, 0.279), 0 0 40px darkmagenta, 0 0 80px darkmagenta;}  99% {box-shadow: 0 0 20px rgba(139, 0, 139, 0.279), 0 0 40px darkmagenta, 0 0 80px darkmagenta;}
+    100% {box-shadow: 0 0 20px blue, 0 0 40px blue, 0 0 80px blue;}
+
+}
+
+
+
+
+#titulo:hover {
+    background-color: red;
+box-shadow: 0 0 20px red, 0 0 40px red, 0 0 80px red;
+top: 0px;
+left: 10px;
+
+}

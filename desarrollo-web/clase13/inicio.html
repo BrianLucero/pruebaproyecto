@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/iniciar_sesion.css" rel="stylesheet">
+    <script type="text/javascript" src="js/archivo.js"></script> 
+    
+
+    <title>tienda-line</title>
+  </head>
+  <body>
+   
+    <div id="form">
+        <h3>iniciar sesión</h3>
+        <hr>
+        <form  id="form1" action="http://localhost/clase13/" method="post" >
+            <input class="inputs" type="email, tel" id="email-tel" name="email-tel" value="" placeholder="Numero de celular o Email" autocomplete="" onmouseover="validarMostrar('Numero de celular o Email');" onmouseout="validarQuitar();"><br>
+            <input class="inputs" type="password" id="password" name="pass" value="" placeholder="Contraseña" pattern="[A-Za-z][A-Za-z0-9]*[0-9][A-Za-z0-9]*" title="Una contraseña válida es un conjuto de caracteres, donde cada uno consiste de una letra mayúscula o minúscula, o un dígito. La contraseña debe empezar con una letra y contener al menor un dígito" required onmouseover="validarMostrar('Contraseña');" onmouseout="validarQuitar();"><br>
+            <a href="index.html"><input class="boton2"  type="button" value="iniciar Sesión" onclick="validarDatos();"  ></a><br>
+            <input class="boton" type="submit" value="Crear cuenta nueva" onclick="crearCuenta();">
+            <p id="contenido"></p>
+        </form>  
+     
+    </div>
+            
+    <div id="container">
+        <h2 class="titulo">Registrarme</h2>
+        <p class="titulo">rapido y sencillo</p>
+        <hr>
+        <form >
+            <input class="inputs2" type="text"  id="nombre" name="nombre" value="" placeholder="Nombre" onmouseover="funcionPoner('Nombre');" onmouseout="funcionNoponer();">
+            <input class="inputs2" type="text"  id="apellido" name="apellido" value="" placeholder="Apellido" onmouseover="funcionPoner('Apellido');" onmouseout="funcionNoponer();"><br>
+            <input class="inputs" type="tel, email"  id="tel-email" name="tel-email" value="" placeholder="Numero de Celular o Email" onmouseover="funcionPoner('Numero de Celular o Email');" onmouseout="funcionNoponer();"><br>       
+            <input class="inputs" type="password" id="password" name="contraseña" value="" placeholder="Nueva Contraseña" onmouseover="funcionPoner('Contraseña');" onmouseout="funcionNoponer();"><br>
+            <input class="inputs" type="date" id="datos" name="datos" value=""><br>
+            Mujer<input class="radio" type="radio" id="mujer" name="mujer" value="">
+            Hombre<input class="radio" type="radio" id="hombre" name="hombre" value=""><br>
+            <p class="condiciones">Acepto <a href="home.html">termino y condiciones<input type="checkbox"></a></p>
+            <input class="boton3" type="submit" value="enviar" onclick="autorizarValor();">
+            <input type="button" value="x" id="ocultar" onclick="validarOcultar();" title="
+            Cerrar">
+            <p id="resultado"></p>
+        </form>
+  
+
+    
+    </div>
+    
+    <script>
+                  /*div form*/
+        /*function onclick crearCuenta*/
+    function crearCuenta() {
+    document.getElementById("container").style.display = "block";
+    document.getElementById("form").style.display = "none";
+    }
+        /*function onclick validarOcultar*/
+    function validarOcultar() {
+        document.getElementById("container").style.display = "none";
+        document.getElementById("form").style.display = "block";
+    }
+        /*function onmouseover validarMostrar*/
+    function validarMostrar(mostrar) {
+        if ((mostrar == 'Numero de celular o Email') || (mostrar == 'Contraseña')) {
+        document.getElementById("contenido").innerHTML = "Completar: <b> " + mostrar + "</b>";
+        }
+    }
+        /*function  onmouseout validarQuitar*/
+    function validarQuitar() {
+        document.getElementById("contenido").innerHTML = "";
+    }
+        /*function onclick validarDatos*/
+        function validarDatos() {
+        var email, tel = document.getElementById('email-tel').value;
+        var password = document.getElementById('password').value;
+    
+        if (email,tel == 0) {
+        document.getElementById("contenido").innerHTML = "el campo <b>Numero de Celular o Email</b> esta vacio" ;
+        return false;
+        
+        }
+    
+        if (email, tel.indexOf("@") < 0) {
+        document.getElementById("contenido").innerHTML = "Escriba bien el <b>Numero de Celular o Email</b>" ;
+        return false;    
+        } 
+    
+        if (password == 0){
+        document.getElementById("contenido").innerHTML = "Por favor comple el campo <b>Contraseña</b>" ;
+        return false;
+        }
+    
+        if (password.length <= 8) {
+            document.getElementById("contenido").innerHTML = "contraseña invalido";
+          return false;
+        }
+    
+       
+    
+    }
+      //form1.submit();
+    
+    /*div container*/
+    /*function onmouseover funcionPoner*/
+    function funcionPoner(Poner) {
+    if ((((poner = 'Nombre') || (poner = 'Apellido') || (poner = 'Numero de Celular o Email') || (poner = 'Contraseña')))) {
+        document.getElementById("resultado").innerHTML = "Completar el campo:<b> " + Poner + "</b>";
+    }
+    }
+    
+    /*function onmouseout funcionNoponer*/
+    function funcionNoponer() {
+        document.getElementById("resultado").innerHTML = "";
+    }
+    
+    
+    /*function onclick autorizarValor*/
+    function autorizarValor() {
+    var nombre = document.getElementById('nombre').value;
+    var apellido = document.getElementById('apellido').value;
+    var tel, email = document.getElementById('tel-email').value;
+    var password = document.getElementById('password').value;
+    var datos = document.getElementById('datos').value;
+    
+    
+    if (nombre == 0) {
+        document.getElementById("resultado").innerHTML = "completar el campo <b>Nombre</b>";
+        return false;
+        }
+    
+    if (apellido == 0) {
+        document.getElementById("resultado").innerHTML = "completar el campo <b>Apellido</b>";
+        return false;
+        } 
+    
+    if (tel,  email == 0) {
+         document.getElementById("resultado").innerHTML = "esta vacio el campo <b>Numero de Celular </b>";
+         return false;
+       
+    }
+    
+    if (tel, email.indexOf("@") < 0) {
+         document.getElementById("resultado").innerHTML = "Escriba bien el <b>numero celular o email</b>" ;
+        return false;    
+    } 
+    
+    if (password == 0) {
+        document.getElementById("resultado").innerHTML = "complete el campo contraseña";
+      return false;
+    }
+    
+    if (password.length <= 8) {
+        document.getElementById("contenido").innerHTML = "contraseña invalida";
+      return false;
+    }
+    
+    if (datos == 0) {
+        document.getElementById("resultado").innerHTML = "complete su fecha de nacimiento";
+      return false;
+    }
+    
+    document.getElementById("resultado").innerHTML = "se envio Correctamente";
+    
+    
+    
+    
+    
+    }
+    console.log("hola como estas");
+    
+       
+    
+    </script>
+    
+
+
+
+
+
+
+
+
+  
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+.columna {
+    width: 22%;
+    border: 1px solid #999999;
+    padding: 10px;
+    float: left;
+    background-color: #EEEEEE;
+    margin: 10px;
+}
+
+.contenedor-padre {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid #999999;
+    padding: 10px;
+    height: 500px;
+}
+
+.contenedor-hijo {
+    border: 1px solid #999999;
+    padding: 10px;
+    margin: 10px;
+    width: 500px;
+}

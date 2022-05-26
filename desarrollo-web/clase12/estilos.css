@@ -1,0 +1,147 @@
+.container {
+    width: 100%;
+    min-width: 1200px;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left:0px;
+    
+    
+}
+
+
+.container .card {
+  
+    width: 280px;
+    height: 370px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgb(241, 4, 4);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color:white;
+}
+
+
+.container .card:hover {
+    transform: translateY(-20px);
+    box-shadow: red;
+}
+
+
+.container .card img {
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+
+.container .card h2 {
+    font-weight: 600;
+    margin: 0;
+    padding: 0px;
+ 
+}
+
+
+.container .card p {
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 300;
+  
+}
+
+
+.container .card a {
+    margin: 5px;
+    padding: 5px;
+ }
+ 
+.container .card .boton {
+    border-radius: 5px;
+    height: 25px;
+    width: 90px;
+    padding: 0;
+    margin:20px;
+}
+
+
+
+.btn-hmg{
+    margin: 0;
+    padding: 0;
+   
+    
+}
+
+.lbl-menu {
+    width: 500px;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+  
+}
+
+
+.lbl-menu #spn1,#spn2,#spn3 {
+    position: absolute;
+    content: '';
+    background: #00ff27; 
+    width: 50px;
+    height: 5px;
+    border-radius: 5px;
+    transition: all 400ms ease;
+}
+
+
+#spn2 {
+    top: 11px;
+
+}
+
+#spn3 {
+    top: 22px;
+
+}
+
+
+#btn-menu {
+    display: none;
+}
+
+
+
+
+
+.lbl-menu1 {
+    width: 50px;
+    width: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.lbl-menu1 #spn4,#spn5 {
+    position: absolute;
+    content: '';
+    background: #00ff27; 
+    width: 50px;
+    height: 5px;
+    border-radius: 5px;
+    transition: all 400ms ease;
+}
+
+
+
+#spn4 {
+    transform:rotate(140deg);
+    top: 10px;
+}
+
+#spn5 {
+    transform:rotate(-140deg);
+    top: 10px;
+}

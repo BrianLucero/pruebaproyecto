@@ -1,0 +1,122 @@
+<html>
+<head>
+<title>clase2</title>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+</head>
+<body background="">
+<h1 align="center">Luis Miguel</h1>
+<p align="center">HISTORIA | DISCOS| SERIE</p>
+<p><a href="pagina2.html" target="_blank" title="Visita La Paginá de Luis Miguel"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Luis_Miguel.jpg/330px-Luis_Miguel.jpg" align="left"></a><b>vas a poder armar tu propia pagina web profesinal sin nungina dificultad</b>.</P>
+<P><i>El estudiar no solo es importante para uno mismo, en el sentido de ser una persona más sabia, culta o con diversos conocimientos, sino también para poder acceder a un trabajo.</i></P>
+<P>Así fue como el aprender, estudiar, profesionalizarse o especializarse en algún tema o actividad en particular, se fue convirtiendo en una necesidad básica para mayores oportunidades.</P>
+<P>Han quedado atrás los años donde <b> las personas con estudios básicos podían ser parte del ámbito laboral </b> con posibilidades de progresos y salarios dignos.</P>
+<p>Hoy, la mayoría de las personas que no cuentan con estudios se ven obligadas a aceptar “lo que haya” son la mano de obra barata, explotadas por su situación.Aun así, hoy en día y sin sonar muy pesimista, ni el estudio es garantía de poder conseguir empleo, pero estudiar y prepararse cada vez más, les abrirá muchas más oportunidades.</p>
+<p>El estudio es esencial, no solo por el saber propio de una persona, sino también por las oportunidades de empleo que se le podrán llegar a presentar en esta sociedad tan competitiva.</P>
+<p>Luis Miguel Gallego Basteri (San Juan, 19 de abril de 1970),1​ conocido como Luis Miguel y apodado en ocasiones como «El sol de México»,5​ es un cantante y productor musical mexicano6​7​8​9​10​ nacido en Puerto Rico.11​</p>
+<p>Es considerado como uno de los artistas más grandes y exitosos de América Latina por su amplia gama de estilos musicales, incluyendo funk, pop, baladas, boleros, tangos, jazz, big band y mariachi. También es reconocido como el único cantante latino de su generación que no se cruza con el mercado anglosajón durante la "Explosión latina" en la década de 1990.12​ A pesar de cantar solo en español, continuó siendo el artista latino más vendido en la década de los 90, y se le atribuyó la popularización del género bolero en el mercado general.13​ Ha vendido más de 100 millones de discos en todo el mundo.</p>
+<p align="center">VAMOS RIVER PLATE</p>
+<br>
+<p>&nbsp;</p>
+<p>
+<ol>
+<li><b>CAFÉ</b></li>
+<li><i>Té</i></li>
+<li><b><i>Leche</i></b></li>
+<li>Café con Leche</li>
+</ol>
+<ul type="square">
+<li>Café</li>
+<li>Té</li>
+<li>Leche</li>
+<li>Café con Leche</li>
+</ul>
+<ul>
+<li>Café</li>
+<li>Té</li>
+<li><a href="https://www.google.com/search?q=cafe+con+lechw&rlz=1C1ALOY_esAR953AR953&oq=cafe+con+lechw&aqs=chrome..69i57j46i10i433j0i10l2j5j69i60l3.2672j0j7&sourceid=chrome&ie=UTF-8">Leche</li>
+<li><a href="https://www.google.com/search?q=cafe+con+lechw&rlz=1C1ALOY_esAR953AR953&oq=cafe+con+lechw&aqs=chrome..69i57j46i10i433j0i10l2j5j69i60l3.2672j0j7&sourceid=chrome&ie=UTF-8" target="_blank">Café con Leche</a></li>
+</ul>
+</p>
+
+<table align="center" border="2" cellpadding="10" cellspacing="10" widht="100%">
+<tr bgcolor="cccccc">
+<th><i>Nombre</i></th>
+<th>Apellido</th>
+<th>Edad</th>
+</tr>
+<tr>
+<td><i>Brian</i></td>
+<td>Lucero</td>
+<td>20</td>
+</tr>
+<td>Sofia</td>
+<td>Moreira</td>
+<td>20</td>
+</tr>
+<td>Veronica</td>
+<td>Muñozo</td>
+<td>20</td>
+</tr>
+<td><b>Taylor</b></td>
+<td>Statu</td>
+<td>20</td>
+</tr>
+</table>
+
+
+
+
+
+
+<html>
+<head>
+<title>Luis Miguel</title>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+</head>
+<body background="">
+<h1 align="center">Luis Miguel</h1>
+<p align="center">HISTORIA | DISCOS| SERIE</p>
+<hr>
+<table align="center" border="0" cellpadding="3" cellspacing="3" width="80%">
+<tr>
+<td width="60%">
+    <p><b>Luis Miguel Gallego Basteri (San Juan, 19 de abril de 1970),1​ conocido como Luis Miguel y apodado en ocasiones como «El sol de México»,5​ es un cantante y productor musical mexicano6​7​8​9​10​ nacido en Puerto Rico.11​vas a poder armar tu propia pagina web profesinal sin nungina dificultad</b></P>
+        <P><i>El estudiar no solo es importante para uno mismo, en el sentido de ser una persona más sabia, culta o con diversos conocimientos, sino también para poder acceder a un trabajo.</i></P>
+        <P>Así fue como el aprender, estudiar, profesionalizarse o especializarse en algún tema o actividad en particular, se fue convirtiendo en una necesidad básica para mayores oportunidades.</P>
+        <P>Han quedado atrás los años donde <b> las personas con estudios básicos podían ser parte del ámbito laboral </b> con posibilidades de progresos y salarios dignos.</P>
+        <p>Hoy, la mayoría de las personas que no cuentan con estudios se ven obligadas a aceptar “lo que haya” son la mano de obra barata, explotadas por su situación.Aun así, hoy en día y sin sonar muy pesimista, ni el estudio es garantía de poder conseguir empleo, pero estudiar y prepararse cada vez más, les abrirá muchas más oportunidades.</p>
+        <p>El estudio es esencial, no solo por el saber propio de una persona, sino también por las oportunidades de empleo que se le podrán llegar a presentar en esta sociedad tan competitiva.</P>
+        <p>Luis Miguel Gallego Basteri (San Juan, 19 de abril de 1970),1​ conocido como Luis Miguel y apodado en ocasiones como «El sol de México»,5​ es un cantante y productor musical mexicano6​7​8​9​10​ nacido en Puerto Rico.11​</p>
+        <p>Es considerado como uno de los artistas más grandes y exitosos de América Latina por su amplia gama de estilos musicales, incluyendo funk, pop, baladas, boleros, tangos, jazz, big band y mariachi. También es reconocido como el único cantante latino de su generación que no se cruza con el mercado anglosajón durante la "Explosión latina" en la década de 1990.12​ A pesar de cantar solo en español, continuó siendo el artista latino más vendido en la década de los 90, y se le atribuyó la popularización del género bolero en el mercado general.13​ Ha vendido más de 100 millones de discos en todo el mundo.</p>
+        <h2>Primeros años</h2>
+       <p>Nació en San Juan, Puerto Rico el 19 de abril de 1970,1​ siendo hijo del cantautor español Luisito Rey y la italiana Marcela Basteri, radicados posteriormente en México.29​30​ Es el mayor de los tres hijos del matrimonio, y sus hermanos son Alejandro y Sergio.29​ Debido a la profesión de su padre, su familia llegó a México, y posteriormente retornó a sus residenciales, que están en Madrid, España. Desde su niñez se crio ahí, donde estudió hasta quinto grado en la escuela primaria, pues debido a su incursión en los medios artísticos siguió su educación con profesores particulares.31​</p>
+</td>
+<td aling="center" valing="top" width="30%">
+
+
+<table border="0">
+<tr>
+<td align="center" bgcolor="#f0e68c"><b>Luis Miguel</b></td>
+</tr>
+<tr>
+<td><a href="https://es.wikipedia.org/wiki/Luis_Miguel" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Luis_Miguel.jpg/330px-Luis_Miguel.jpg"></a></td>
+ </tr>
+<tr>
+ <td align="center" bgcolor="f0e68c"><b>Informacion Personal</b></td>
+ </tr>
+ <tr>
+ <td><table border="0" cellpadding="6" cellspacing="6">
+    </tr>
+    <td><b>nombre De Nacimiento</b></td>
+    <td>Luis Miguel Gallego Basteri</td>
+</tr>
+<tr>
+<td valign="top"><b>Apodo</b></td>
+<td><i>El Sol de México<br>Luismi<br>Micky</i></td>
+ </tr>       
+ </td>
+ </tr>
+ </table>
+</td>
+</tr>
+</table>
